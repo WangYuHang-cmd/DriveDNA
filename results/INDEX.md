@@ -1,6 +1,6 @@
 # Result files
 
-Every JSON here was written by the script in the second column; file names with `_s10` / `_s11` are the additional training seeds. Driver identifiers inside the files are the release pseudonyms (`driver_XXX`); drive identifiers are `driver_XXX__drive_YYY`. Two truncated files from interrupted runs (`w5_cvae.json`, `m2_mcpp6_dinov2.json`) and the large embedding `.npz` files are not included. `CHECKSUMS.sha256` in the repository root lists the sha256 of every file in this folder.
+Every JSON here was written by the script in the second column; file names with `_s10` / `_s11` are the additional training seeds. Driver identifiers inside the files are the release pseudonyms (`driver_XXX`); drive identifiers are `driver_XXX__drive_YYY`. Two truncated files from interrupted runs (`w5_cvae.json`, `m2_mcpp6_dinov2.json`) and the large embedding `.npz` files are not included. `CHECKSUMS.sha256` in the repository root lists the sha256 of every file in this folder. Not covered by a file here: the training-run logs of the Section 6.4 predictors (their headline numbers are in `RESULTS.md`), and the Appendix A log-tier probe, which needs an unreleased decoding log.
 
 | File(s) | Produced by | Where it appears in the paper |
 |---|---|---|
@@ -28,6 +28,8 @@ Every JSON here was written by the script in the second column; file names with 
 | m5_pair_agreement.json, m5_pair_agreement_qwen3.json | summaries computed from `code/preprocessing/m5_vlm_attrs.py` outputs (no script) | App. F: VLM scene-attribute agreement of matched vs. random pairs |
 | vlm_qwen3_audit.json | `code/preprocessing/m5_qwen3_audit.py` | App. F: cross-generation VLM attribute audit |
 | t1_audit_answers.json | browser export of the audit interface (`code/analysis/make_audit_package.py`, `summarize_audit.py`) | App. C: 240-window primitive audit (93.0% agreement) |
+| lora8b_seed0.json | single Colab H100 run of `Qwen3-8B + LoRA` (r = 16, 1 epoch) on the 3,000-anchor subsample; numbers transcribed from the run's stdout, no training script in this repository | App. L / Table 12: the adapted row (.871 AUROC / .792 AP) |
+| vlm7b.json | single Colab run of zero-shot `Qwen2.5-VL-7B` on the 2,897 frames-available anchors; numbers transcribed from the run's stdout | App. L / Table 12: the Qwen2.5-VL-7B row |
 | RESULTS.md | hand-written running summary | working notes kept with the results |
 
 ## Files in this folder
@@ -44,6 +46,7 @@ llm_t5_gru_subsample.json
 llm_t5_qwen2.5-vl-3b.json
 llm_t5_qwen3-4b.json
 llm_t5_qwen3-vl-4b.json
+lora8b_seed0.json
 m2_mcpp6_dinov2_v2.json
 m2_mcpp6_dinov3.json
 m2_mcpp6_vjepa2.json
@@ -68,6 +71,7 @@ t4_results_s10.json
 t4_results_s11.json
 t5_results.json
 v3_moment.json
+vlm7b.json
 vlm_maneuver_qwen2.5-vl-3b.json
 vlm_maneuver_qwen3-vl-4b.json
 vlm_qwen3_audit.json

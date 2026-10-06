@@ -1,0 +1,8 @@
+{
+ "auroc": 0.6071762517059024,
+ "ap": 0.43012604764205614,
+ "n": 2897,
+ "pos_rate": 0.33724542630307214,
+ "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+ "source": "colab H100 run 2026-07-24, user-reported stdout; scores npz still on Colab"
+}

@@ -23,7 +23,7 @@
 
 > *Does a model recognize **how a person drives** — or merely **which car they own, which roads they frequent, and which conditions they encounter**?*
 
-This repository holds the **evaluation harness, every baseline, the preprocessing pipeline, the result files behind the paper's tables, and the exact environment**. The data live on Hugging Face; the trained checkpoints live in a companion model repository (see [Resources](#-resources)).
+This repository holds the **evaluation harness, every baseline trained in the paper's harness, the preprocessing pipeline, the result files behind the paper's tables (coverage listed in `results/INDEX.md`), and the exact environment**. The data live on Hugging Face; the trained checkpoints live in a companion model repository (see [Resources](#-resources)).
 
 ## ✨ Highlights
 
@@ -76,7 +76,7 @@ The main driver-disjoint split is **212 train / 45 val / 45 test**, plus a **53-
 | Recognition ≠ prediction | Best re-ID embedding yields **no** prediction gain (−0.2%); task-aligned FiLM conditioning does (+0.4 to +1.4%) |
 | Foundation models need adaptation | Zero-shot LLM/TS/VLM rows land at/below the descriptor level; 1-epoch LoRA lifts Qwen3-8B to .871 on event forecasting |
 
-*30 baseline configurations across five families — representation learning, shortcut robustness, personalization, multimodal modeling, distributional prediction — under one fixed multi-seed protocol.* The JSON behind every number is in [`results/`](results/INDEX.md).
+*30 baseline configurations across five families — representation learning, shortcut robustness, personalization, multimodal modeling, distributional prediction — under one fixed multi-seed protocol.* The JSON behind the reported rows is in [`results/`](results/INDEX.md), which also lists the rows that come from single external runs.
 
 ## 🔗 Resources
 
@@ -84,7 +84,7 @@ The main driver-disjoint split is **212 train / 45 val / 45 test**, plus a **53-
 |---|---|---|
 | Code, harness, baselines, results | this repository, tag `v1.1-kdd2027` | research-only license (see below) |
 | DriveDNA (signals, features, embeddings, splits, forward video) | [HenryYHW/DriveDNA](https://huggingface.co/datasets/HenryYHW/DriveDNA) | gated, granted on request |
-| DriveDNA-Sample (small, no approval needed) | [HenryYHW/DriveDNA-Sample](https://huggingface.co/datasets/HenryYHW/DriveDNA-Sample) | open |
+| DriveDNA-Sample (small) | [HenryYHW/DriveDNA-Sample](https://huggingface.co/datasets/HenryYHW/DriveDNA-Sample) | open after accepting the terms (automatic approval) |
 | DriveDNA-Controlled (14 drivers, one car, same format) | [HenryYHW/DriveDNA-Controlled](https://huggingface.co/datasets/HenryYHW/DriveDNA-Controlled) | gated, granted on request |
 | Trained checkpoints (47 files, 162 MB) | [HenryYHW/DriveDNA-models](https://huggingface.co/HenryYHW/DriveDNA-models) | gated, granted on request |
 
@@ -93,7 +93,7 @@ The main driver-disjoint split is **212 train / 45 val / 45 test**, plus a **53-
 | Artifact | Identifier |
 |---|---|
 | this repository | tag `v1.1-kdd2027` |
-| HenryYHW/DriveDNA | data files frozen at revision `1f9c67170db726c977686ebe6ca86284f2aed444`; dataset card updated in `b6ac457b9bf12bd2920c408c9c188d9af69f39a5` |
+| HenryYHW/DriveDNA | data files frozen at revision `1f9c67170db726c977686ebe6ca86284f2aed444`; the current head `b6ac457b9bf12bd2920c408c9c188d9af69f39a5` changes only the card and LICENSE and removes 50 duplicate `.ts` segments and a stale code copy, so `hf download` of the head yields the same data |
 | HenryYHW/DriveDNA-Controlled | revision `1d24e058d74ca86965495e0458ac585ec82d3b37` |
 | HenryYHW/DriveDNA-models | revision `b0d7ab6713296ca90933eb078c4ab8c3ad821395` |
 | checksums | [`CHECKSUMS.sha256`](CHECKSUMS.sha256): sha256 of all 47 checkpoints and of every file in `results/` |
@@ -107,7 +107,7 @@ Different numbers on the paper and the public pages referred to different cohort
 | Benchmark window cohort (`data/windows.parquet`, 62,674 windows) | 428 | 392 | 20 (7 admit model-matched negatives, Appendix G) |
 | Full release index (`index/drives.parquet`, 4,121 drives) | 460 | 426 | 22 |
 
-The paper's count of 420 drivers sharing a model was computed on the 465-driver decoded corpus before the release index was frozen; the camera-ready version will use the release-index figures with these definitions. Both rows are reproducible from the released files:
+The paper's count of 420 drivers sharing a model was computed on the 465-driver decoded corpus before the release index was frozen; the camera-ready version will use the release-index figures with these definitions. Placeholder vehicle labels (`UNKNOWN` in the index, `MOCK` in the windows table) are counted as a model in these figures, as in the paper; excluding them gives 411 / 18 (release index) and 379 / 18 (benchmark cohort), with 117 and 115 real nameplates respectively. The released cross-vehicle manifest (`splits/cross_vehicle.json`) lists the 16 drivers with drive-disjoint data on two or more models. Forward video exists for 3,983 drives (452 drivers) and the four embedding families for 3,891 of them. Both rows are reproducible from the released files:
 
 ```python
 import pandas as pd, sys; sys.path.insert(0, "code/preprocessing"); from model_merge import canon
@@ -125,7 +125,7 @@ DriveDNA/
 │   ├── eval/            # harness.py (enrollment protocol, metrics, distribution distances, leakage probes), task evaluators, appendix experiments
 │   ├── model/           # all baseline configurations (S1–S5, W-, M-, V-wave, LLM/VLM rows)
 │   └── analysis/        # annotation / audit tooling, LLM bundle export
-├── results/             # the JSON behind the paper's tables (+ INDEX.md: file → script → table)
+├── results/             # result JSONs for the paper's tables (coverage and gaps in INDEX.md)
 ├── scripts/prepare_release_layout.py   # builds the working layout from the Hugging Face release
 ├── figs_making/         # paper figure scripts
 ├── CHECKSUMS.sha256 · ENVIRONMENT.md · requirements.txt · LICENSE
@@ -213,7 +213,7 @@ Preprocessing pipeline (for reference; the first two steps need the raw logs): `
 
 ## 🧠 Checkpoints
 
-All 47 checkpoints behind the tables (re-identification encoders for three seeds, personalization predictors, distributional heads, multimodal and event-forecasting models) are in [HenryYHW/DriveDNA-models](https://huggingface.co/HenryYHW/DriveDNA-models), each with its training command and sha256. They are plain PyTorch state dicts with the input normalisation statistics:
+All 47 checkpoints from the paper's runs (44 used in reported rows, 2 superseded and 1 unused, each flagged on the model card; re-identification encoders for three seeds, personalization predictors, distributional heads, multimodal and event-forecasting models) are in [HenryYHW/DriveDNA-models](https://huggingface.co/HenryYHW/DriveDNA-models), each with its training command and sha256. They are plain PyTorch state dicts with the input normalisation statistics:
 
 ```python
 import torch, sys

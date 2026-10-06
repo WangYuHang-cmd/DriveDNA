@@ -1,0 +1,9 @@
+{
+ "auroc": 0.87147475,
+ "ap": 0.7922262892119957,
+ "n": 3000,
+ "pos_rate": 0.3333333333333333,
+ "seed": 0,
+ "model": "Qwen/Qwen3-8B + LoRA r16 (1 epoch, max_length=2048)",
+ "source": "colab H100 run 2026-07-25, user-reported stdout; scores npz still on Colab"
+}
