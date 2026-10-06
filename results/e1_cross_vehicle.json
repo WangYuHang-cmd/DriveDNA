@@ -1,0 +1,1184 @@
+{
+ "cross_vehicle": {
+  "n_pairs": 110,
+  "n_drivers": 7,
+  "mean_auroc_over_drivers": 0.7500711929798527,
+  "ci95": [
+   0.642932824057442,
+   0.8604806587801811
+  ],
+  "per_driver": {
+   "driver_068": 0.8033066209585534,
+   "driver_007": 0.5246422383133008,
+   "driver_256": 0.6871175,
+   "driver_079": 0.8455336162172911,
+   "driver_078": 0.5906801583641289,
+   "driver_379": 1.0,
+   "driver_108": 0.7992182170056945
+  }
+ },
+ "same_vehicle_control": {
+  "n_pairs": 19,
+  "n_drivers": 6,
+  "mean_auroc_over_drivers": 0.8161755964501528,
+  "ci95": [
+   0.7421943709272221,
+   0.8992937053645607
+  ],
+  "per_driver": {
+   "driver_068": 0.9961999571826161,
+   "driver_007": 0.7635977096207267,
+   "driver_256": 0.74533625,
+   "driver_079": 0.8627353370625235,
+   "driver_078": 0.8389458218485423,
+   "driver_108": 0.6902385029865086
+  }
+ },
+ "pairs": [
+  {
+   "auroc": 0.9282722513089006,
+   "eer": 0.1644851657940663,
+   "driver": "driver_068",
+   "enroll": "HYUNDAI_TUCSON",
+   "query": "TOYOTA_COROLLA",
+   "n_pos": 30,
+   "n_neg": 191
+  },
+  {
+   "auroc": 0.5745297647138137,
+   "eer": 0.37767140834625496,
+   "driver": "driver_068",
+   "enroll": "HYUNDAI_TUCSON",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 26,
+   "n_neg": 1141
+  },
+  {
+   "auroc": 0.9958283346057367,
+   "eer": 0.040182953430035986,
+   "driver": "driver_068",
+   "enroll": "SKODA_KODIAQ",
+   "query": "HYUNDAI_TUCSON",
+   "n_pos": 53,
+   "n_neg": 1384
+  },
+  {
+   "auroc": 0.9399650959860384,
+   "eer": 0.13996509598603837,
+   "driver": "driver_068",
+   "enroll": "SKODA_KODIAQ",
+   "query": "TOYOTA_COROLLA",
+   "n_pos": 30,
+   "n_neg": 191
+  },
+  {
+   "auroc": 0.5928335468212769,
+   "eer": 0.3890649228072541,
+   "driver": "driver_068",
+   "enroll": "SKODA_KODIAQ",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 26,
+   "n_neg": 1141
+  },
+  {
+   "auroc": 0.9997955065983205,
+   "eer": 0.0025289017341040463,
+   "driver": "driver_068",
+   "enroll": "TOYOTA_COROLLA",
+   "query": "HYUNDAI_TUCSON",
+   "n_pos": 53,
+   "n_neg": 1384
+  },
+  {
+   "auroc": 0.5242027910739567,
+   "eer": 0.40264949774152226,
+   "driver": "driver_068",
+   "enroll": "TOYOTA_COROLLA",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 26,
+   "n_neg": 1141
+  },
+  {
+   "auroc": 0.9964963463845566,
+   "eer": 0.037654051695931945,
+   "driver": "driver_068",
+   "enroll": "TOYOTA_RAV4",
+   "query": "HYUNDAI_TUCSON",
+   "n_pos": 53,
+   "n_neg": 1384
+  },
+  {
+   "auroc": 0.6778359511343804,
+   "eer": 0.3613438045375218,
+   "driver": "driver_068",
+   "enroll": "TOYOTA_RAV4",
+   "query": "TOYOTA_COROLLA",
+   "n_pos": 30,
+   "n_neg": 191
+  },
+  {
+   "auroc": 0.3823387076233412,
+   "eer": 0.585988640126334,
+   "driver": "driver_007",
+   "enroll": "CHEVROLET_BOLT",
+   "query": "CHEVROLET_BOLT_EUV",
+   "n_pos": 69,
+   "n_neg": 569
+  },
+  {
+   "auroc": 0.9368894009216591,
+   "eer": 0.1272119815668203,
+   "driver": "driver_007",
+   "enroll": "CHEVROLET_BOLT",
+   "query": "CHEVROLET_VOLT",
+   "n_pos": 200,
+   "n_neg": 217
+  },
+  {
+   "auroc": 0.46447114671413736,
+   "eer": 0.520990950897493,
+   "driver": "driver_007",
+   "enroll": "CHEVROLET_BOLT_EUV",
+   "query": "CHEVROLET_BOLT",
+   "n_pos": 21,
+   "n_neg": 1926
+  },
+  {
+   "auroc": 0.061059907834101375,
+   "eer": 0.8560714285714286,
+   "driver": "driver_007",
+   "enroll": "CHEVROLET_BOLT_EUV",
+   "query": "CHEVROLET_VOLT",
+   "n_pos": 200,
+   "n_neg": 217
+  },
+  {
+   "auroc": 0.9529248875043267,
+   "eer": 0.053070761014686246,
+   "driver": "driver_007",
+   "enroll": "CHEVROLET_VOLT",
+   "query": "CHEVROLET_BOLT",
+   "n_pos": 21,
+   "n_neg": 1926
+  },
+  {
+   "auroc": 0.3501693792822394,
+   "eer": 0.599386159292937,
+   "driver": "driver_007",
+   "enroll": "CHEVROLET_VOLT",
+   "query": "CHEVROLET_BOLT_EUV",
+   "n_pos": 69,
+   "n_neg": 569
+  },
+  {
+   "auroc": 0.6871175,
+   "eer": 0.37475,
+   "driver": "driver_256",
+   "enroll": "RIVIAN_R1S",
+   "query": "RIVIAN_R1",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.6985625,
+   "eer": 0.41750000000000004,
+   "driver": "driver_079",
+   "enroll": "FORD_MAVERICK",
+   "query": "FORD_MUSTANG_MACH_E",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.7995524999999999,
+   "eer": 0.29125,
+   "driver": "driver_079",
+   "enroll": "FORD_MAVERICK",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.8485800000000001,
+   "eer": 0.23875,
+   "driver": "driver_079",
+   "enroll": "FORD_MAVERICK",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.8480239179954441,
+   "eer": 0.2218394077448747,
+   "driver": "driver_079",
+   "enroll": "FORD_MAVERICK",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 878
+  },
+  {
+   "auroc": 0.9655931293612453,
+   "eer": 0.1079710144927536,
+   "driver": "driver_079",
+   "enroll": "FORD_MUSTANG_MACH_E",
+   "query": "FORD_MAVERICK",
+   "n_pos": 69,
+   "n_neg": 270
+  },
+  {
+   "auroc": 0.7968474999999999,
+   "eer": 0.28625,
+   "driver": "driver_079",
+   "enroll": "FORD_MUSTANG_MACH_E",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.8436225000000002,
+   "eer": 0.23025,
+   "driver": "driver_079",
+   "enroll": "FORD_MUSTANG_MACH_E",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.8189066059225512,
+   "eer": 0.2705353075170843,
+   "driver": "driver_079",
+   "enroll": "FORD_MUSTANG_MACH_E",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 878
+  },
+  {
+   "auroc": 0.9308105206655931,
+   "eer": 0.16304347826086957,
+   "driver": "driver_079",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "FORD_MAVERICK",
+   "n_pos": 69,
+   "n_neg": 270
+  },
+  {
+   "auroc": 0.882875,
+   "eer": 0.24625,
+   "driver": "driver_079",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "FORD_MUSTANG_MACH_E",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.8586525,
+   "eer": 0.21525,
+   "driver": "driver_079",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7686617312072894,
+   "eer": 0.29328587699316633,
+   "driver": "driver_079",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 878
+  },
+  {
+   "auroc": 0.9729468599033816,
+   "eer": 0.12093397745571656,
+   "driver": "driver_079",
+   "enroll": "KIA_NIRO",
+   "query": "FORD_MAVERICK",
+   "n_pos": 69,
+   "n_neg": 270
+  },
+  {
+   "auroc": 0.8516874999999999,
+   "eer": 0.31375,
+   "driver": "driver_079",
+   "enroll": "KIA_NIRO",
+   "query": "FORD_MUSTANG_MACH_E",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.767085,
+   "eer": 0.29475,
+   "driver": "driver_079",
+   "enroll": "KIA_NIRO",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.796366742596811,
+   "eer": 0.30261958997722094,
+   "driver": "driver_079",
+   "enroll": "KIA_NIRO",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 878
+  },
+  {
+   "auroc": 0.9630703166935051,
+   "eer": 0.14838969404186794,
+   "driver": "driver_079",
+   "enroll": "TESLA_MODEL_3",
+   "query": "FORD_MAVERICK",
+   "n_pos": 69,
+   "n_neg": 270
+  },
+  {
+   "auroc": 0.8751249999999999,
+   "eer": 0.28,
+   "driver": "driver_079",
+   "enroll": "TESLA_MODEL_3",
+   "query": "FORD_MUSTANG_MACH_E",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.7786025000000001,
+   "eer": 0.3095,
+   "driver": "driver_079",
+   "enroll": "TESLA_MODEL_3",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.8451000000000001,
+   "eer": 0.21375,
+   "driver": "driver_079",
+   "enroll": "TESLA_MODEL_3",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.209125,
+   "eer": 0.7484999999999999,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7235531135531136,
+   "eer": 0.31104395604395607,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.57633625,
+   "eer": 0.46025,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.4887936154417224,
+   "eer": 0.48090571640683,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.7083333333333334,
+   "eer": 0.3441666666666666,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.92225,
+   "eer": 0.15000000000000002,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.613291788856305,
+   "eer": 0.44390762463343103,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.1641091907607818,
+   "eer": 0.7522209659182685,
+   "driver": "driver_078",
+   "enroll": "HONDA_ACCORD",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.3309697386519945,
+   "eer": 0.6601237964236588,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.6973296703296703,
+   "eer": 0.37504578754578755,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.7393675,
+   "eer": 0.33525,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.4840311804008908,
+   "eer": 0.5332757980697846,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.7323809523809524,
+   "eer": 0.3879761904761905,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.67525,
+   "eer": 0.3725,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.5342888563049852,
+   "eer": 0.47107038123167155,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.5940881925375545,
+   "eer": 0.41592634469391054,
+   "driver": "driver_078",
+   "enroll": "HONDA_CIVIC",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.4080536451169189,
+   "eer": 0.5991746905089408,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.9569833333333333,
+   "eer": 0.08666666666666668,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7861637499999999,
+   "eer": 0.2615,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7356644394951743,
+   "eer": 0.3348106904231626,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.7052380952380951,
+   "eer": 0.41928571428571426,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.89725,
+   "eer": 0.19249999999999998,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.5722067448680352,
+   "eer": 0.48193548387096774,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.32902600549184297,
+   "eer": 0.6283314488774028,
+   "driver": "driver_078",
+   "enroll": "HYUNDAI_IONIQ_5",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.5127922971114167,
+   "eer": 0.4957806052269601,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.9967166666666667,
+   "eer": 0.01833333333333336,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.6518388278388279,
+   "eer": 0.38084249084249083,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.49765033407572384,
+   "eer": 0.4903600593912398,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.6345238095238096,
+   "eer": 0.47309523809523807,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.9274375,
+   "eer": 0.11124999999999999,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.5516129032258065,
+   "eer": 0.48986803519061584,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.2715231788079471,
+   "eer": 0.6006299466968179,
+   "driver": "driver_078",
+   "enroll": "KIA_NIRO",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.32440165061898213,
+   "eer": 0.6005502063273728,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.6537416666666668,
+   "eer": 0.32058333333333333,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7621941391941393,
+   "eer": 0.2860897435897436,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.75461125,
+   "eer": 0.31725,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.5376190476190477,
+   "eer": 0.4592857142857143,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.722375,
+   "eer": 0.3475,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.563966275659824,
+   "eer": 0.4547727272727272,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.7100629946696818,
+   "eer": 0.3207882409949927,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_3",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.22218019257221458,
+   "eer": 0.7242606602475928,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.9988333333333334,
+   "eer": 0.00225,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.6831941391941392,
+   "eer": 0.35045787545787543,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.7069799999999999,
+   "eer": 0.40449999999999997,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.6810356347438753,
+   "eer": 0.3796807720861173,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.764375,
+   "eer": 0.31125,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.5243475073313784,
+   "eer": 0.48766862170087977,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.7173316104021966,
+   "eer": 0.3141657244387014,
+   "driver": "driver_078",
+   "enroll": "TESLA_MODEL_X",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.9236795048143053,
+   "eer": 0.17028198074277856,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.833425,
+   "eer": 0.20375,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7046410256410257,
+   "eer": 0.35619047619047617,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.8320875,
+   "eer": 0.23925,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.5675575352635486,
+   "eer": 0.44633073496659237,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.6009523809523809,
+   "eer": 0.4267857142857143,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.5917595307917888,
+   "eer": 0.47137096774193543,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.002422871910838316,
+   "eer": 0.9878048780487805,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_CAMRY",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.3168500687757909,
+   "eer": 0.5998624484181567,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.035625,
+   "eer": 0.9324166666666667,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7127728937728938,
+   "eer": 0.3551556776556777,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.60747375,
+   "eer": 0.45025,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.724977728285078,
+   "eer": 0.342507423904974,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.40976190476190477,
+   "eer": 0.5294047619047619,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.82475,
+   "eer": 0.25,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.6885801970602488,
+   "eer": 0.3683572928444516,
+   "driver": "driver_078",
+   "enroll": "TOYOTA_RAV4",
+   "query": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 151,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.03677441540577718,
+   "eer": 0.9461141678129299,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "HONDA_ACCORD",
+   "n_pos": 200,
+   "n_neg": 727
+  },
+  {
+   "auroc": 0.043358333333333346,
+   "eer": 0.9351666666666667,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "HONDA_CIVIC",
+   "n_pos": 60,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.6635274725274725,
+   "eer": 0.3920695970695971,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.3946925,
+   "eer": 0.576,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7319376391982183,
+   "eer": 0.34037861915367484,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.41119047619047616,
+   "eer": 0.6195238095238096,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.31406249999999997,
+   "eer": 0.69375,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "TOYOTA_CAMRY",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.6006818181818181,
+   "eer": 0.46417155425219936,
+   "driver": "driver_078",
+   "enroll": "VOLKSWAGEN_TIGUAN",
+   "query": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 1.0,
+   "eer": 0.0,
+   "driver": "driver_379",
+   "enroll": "MAZDA_CX9",
+   "query": "MOCK",
+   "n_pos": 28,
+   "n_neg": 20
+  },
+  {
+   "auroc": 0.7992182170056945,
+   "eer": 0.31870361861799146,
+   "driver": "driver_108",
+   "enroll": "CHEVROLET_SILVERADO_1500",
+   "query": "CHEVROLET_SILVERADO",
+   "n_pos": 178,
+   "n_neg": 1614
+  }
+ ],
+ "same_pairs": [
+  {
+   "auroc": 0.9961999571826161,
+   "eer": 0.029356668807535888,
+   "driver": "driver_068",
+   "model": "HYUNDAI_TUCSON",
+   "n_pos": 27,
+   "n_neg": 1384
+  },
+  {
+   "auroc": 0.5944765252322369,
+   "eer": 0.4842832036153653,
+   "driver": "driver_007",
+   "model": "CHEVROLET_BOLT_EUV",
+   "n_pos": 35,
+   "n_neg": 569
+  },
+  {
+   "auroc": 0.9327188940092166,
+   "eer": 0.12490783410138248,
+   "driver": "driver_007",
+   "model": "CHEVROLET_VOLT",
+   "n_pos": 200,
+   "n_neg": 217
+  },
+  {
+   "auroc": 0.74533625,
+   "eer": 0.31499999999999995,
+   "driver": "driver_256",
+   "model": "RIVIAN_R1",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.9886772486772487,
+   "eer": 0.04894179894179895,
+   "driver": "driver_079",
+   "model": "FORD_MAVERICK",
+   "n_pos": 35,
+   "n_neg": 270
+  },
+  {
+   "auroc": 0.862,
+   "eer": 0.2525,
+   "driver": "driver_079",
+   "model": "FORD_MUSTANG_MACH_E",
+   "n_pos": 200,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.7879756097560976,
+   "eer": 0.3238353658536585,
+   "driver": "driver_079",
+   "model": "HYUNDAI_IONIQ_5",
+   "n_pos": 164,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.85864,
+   "eer": 0.21549999999999997,
+   "driver": "driver_079",
+   "model": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.8163838268792711,
+   "eer": 0.2598405466970387,
+   "driver": "driver_079",
+   "model": "TESLA_MODEL_3",
+   "n_pos": 200,
+   "n_neg": 878
+  },
+  {
+   "auroc": 0.9843584201218314,
+   "eer": 0.037617082596449844,
+   "driver": "driver_078",
+   "model": "HONDA_ACCORD",
+   "n_pos": 105,
+   "n_neg": 727
+  },
+  {
+   "auroc": 1.0,
+   "eer": 0.0,
+   "driver": "driver_078",
+   "model": "HONDA_CIVIC",
+   "n_pos": 30,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7233553113553115,
+   "eer": 0.3352655677655677,
+   "driver": "driver_078",
+   "model": "HYUNDAI_IONIQ_5",
+   "n_pos": 200,
+   "n_neg": 1365
+  },
+  {
+   "auroc": 0.88953,
+   "eer": 0.17975000000000002,
+   "driver": "driver_078",
+   "model": "KIA_NIRO",
+   "n_pos": 200,
+   "n_neg": 2000
+  },
+  {
+   "auroc": 0.7853062261551715,
+   "eer": 0.2913783452234913,
+   "driver": "driver_078",
+   "model": "TESLA_MODEL_3",
+   "n_pos": 187,
+   "n_neg": 1347
+  },
+  {
+   "auroc": 0.4930952380952381,
+   "eer": 0.5707142857142857,
+   "driver": "driver_078",
+   "model": "TESLA_MODEL_X",
+   "n_pos": 200,
+   "n_neg": 21
+  },
+  {
+   "auroc": 0.9447058823529411,
+   "eer": 0.12426470588235294,
+   "driver": "driver_078",
+   "model": "TOYOTA_CAMRY",
+   "n_pos": 170,
+   "n_neg": 80
+  },
+  {
+   "auroc": 0.7401099706744867,
+   "eer": 0.3237903225806451,
+   "driver": "driver_078",
+   "model": "TOYOTA_RAV4",
+   "n_pos": 200,
+   "n_neg": 682
+  },
+  {
+   "auroc": 0.9900513478819,
+   "eer": 0.04412708600770219,
+   "driver": "driver_078",
+   "model": "VOLKSWAGEN_TIGUAN",
+   "n_pos": 76,
+   "n_neg": 41
+  },
+  {
+   "auroc": 0.6902385029865086,
+   "eer": 0.36909833897219557,
+   "driver": "driver_108",
+   "model": "CHEVROLET_SILVERADO",
+   "n_pos": 89,
+   "n_neg": 1614
+  }
+ ],
+ "min_windows": 20
+}

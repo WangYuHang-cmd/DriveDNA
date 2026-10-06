@@ -2,10 +2,12 @@ __pycache__/
 *.pyc
 data/
 experiments/
-results/
 *.npy
 *.npz
 *.pt
 *.parquet
 *.pdf
+results/*
+!results/*.json
+!results/*.md
 !README*

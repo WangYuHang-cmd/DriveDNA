@@ -1,0 +1,20 @@
+# Benchmark code (evaluation harness, baselines). Exact versions used for the paper are in ENVIRONMENT.md.
+numpy>=2.0
+pandas>=2.2
+pyarrow>=17
+scipy>=1.14
+scikit-learn>=1.5
+torch>=2.4
+torchvision>=0.19
+transformers>=4.45
+accelerate>=1.0
+huggingface-hub>=0.25
+safetensors>=0.4
+Pillow>=10
+tqdm
+matplotlib
+# time-series foundation model baseline (v3_moment.py, t3_all.py --moment)
+momentfm==0.1.4
+# raw openpilot log decoding only (code/preprocessing/rlog_extract.py, decode_*.py); see ENVIRONMENT.md
+zstandard>=0.23
+pycapnp>=2.0

@@ -99,7 +99,7 @@ counts = sub.groupby("driver").size()
 for c in range(8):
     members = big.index[km.labels_ == c]
     reps.append(counts[members].idxmax())
-multi = "bdda168c0c35fad7"
+multi = "<multi-vehicle-driver-id>"   # the raw device id is withheld; see data/release_mapping (private)
 if multi in cent.index and multi not in reps:
     reps.append(multi)
 meta = W.groupby("driver").agg(model=("model_canon", lambda s: s.mode().iat[0]),

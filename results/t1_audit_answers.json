@@ -1,0 +1,1442 @@
+[
+ {
+  "gi": 23326,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 33576,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 51083,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 3287,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 53622,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 33858,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 18304,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 31402,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 50284,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "no"
+ },
+ {
+  "gi": 14569,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 50661,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 15874,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 26916,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 28839,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 52739,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 32313,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 48612,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 35677,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 46769,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 22595,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 24222,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 10251,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 56780,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 61041,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 24562,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 40206,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 14131,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 30751,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 7667,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 60990,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 11385,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": null
+ },
+ {
+  "gi": 15856,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 21191,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 32214,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 10263,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 59925,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 9153,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 18011,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 43616,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 32523,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 13812,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 2008,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 32172,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 10676,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 40024,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 15115,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 39631,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 48906,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 17001,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 19538,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 11185,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 32034,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 31573,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 37576,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 3580,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "no"
+ },
+ {
+  "gi": 13747,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 25375,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 31477,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 50942,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 2568,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 39888,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 52306,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 59913,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 13002,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 9864,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 11331,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "unsure"
+ },
+ {
+  "gi": 47791,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 15583,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 1522,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 21935,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 40291,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": null
+ },
+ {
+  "gi": 44964,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 6630,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 3488,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 1577,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 57402,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 59108,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 18749,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 37122,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 36313,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 29954,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 2888,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 14968,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 55207,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 44886,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 30263,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 45937,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 50339,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 33061,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 16789,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 19438,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 13282,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 8748,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 12667,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 62498,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 61013,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 40979,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 42401,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 23265,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "unsure"
+ },
+ {
+  "gi": 5678,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 11326,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 36632,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 37007,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 55203,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 20303,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "unsure"
+ },
+ {
+  "gi": 38088,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 24949,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 638,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 44489,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 42544,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 6584,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 16356,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 13957,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 36633,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 14749,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 32516,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 20010,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 5080,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 50111,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 55319,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 13337,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 37158,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 33335,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 30699,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 23913,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 13890,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 11488,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 40762,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 34577,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 46859,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 50643,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 42367,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 39184,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 9665,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 42743,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 25728,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 18550,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 44348,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 15135,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "no"
+ },
+ {
+  "gi": 22506,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "unsure"
+ },
+ {
+  "gi": 6651,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "no"
+ },
+ {
+  "gi": 25395,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 46951,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 28113,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "unsure"
+ },
+ {
+  "gi": 51684,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "unsure"
+ },
+ {
+  "gi": 31966,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 36687,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 47801,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 38478,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 56973,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 13062,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 25756,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 13276,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 57857,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 39726,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 53320,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "unsure"
+ },
+ {
+  "gi": 14064,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 3814,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 10774,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 54203,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 61850,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 3549,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 54729,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 27944,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 53095,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 12402,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 42231,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 58753,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 43753,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 22378,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 31796,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 36296,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 8027,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 28780,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 31265,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 59895,
+  "prim": "p_high_jerk",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 16616,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "unsure"
+ },
+ {
+  "gi": 55849,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 15084,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 33986,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "unsure"
+ },
+ {
+  "gi": 13549,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 40922,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 41781,
+  "prim": "p_large_headway",
+  "label": "high",
+  "answer": "unsure"
+ },
+ {
+  "gi": 41285,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 27932,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 30646,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 38448,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 28454,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 46246,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 39333,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 22342,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 51568,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 5101,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 51565,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 22129,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "unsure"
+ },
+ {
+  "gi": 1787,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 8555,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 19335,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 31139,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 29911,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 61916,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 30687,
+  "prim": "p_sharp_steer_path",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 17076,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 32807,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 25561,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 56594,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 7712,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 45283,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 8463,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 30072,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 29542,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 59761,
+  "prim": "p_sharp_steer_raw",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 35510,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 3795,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 12072,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 13318,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 56039,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 7321,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "unsure"
+ },
+ {
+  "gi": 7920,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "no"
+ },
+ {
+  "gi": 25073,
+  "prim": "p_high_jerk",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 4123,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 7206,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 22106,
+  "prim": "p_curve_entry_decel",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 58290,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 49298,
+  "prim": "p_large_headway",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 2199,
+  "prim": "p_sharp_steer_path",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 37276,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 59463,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 1677,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 12231,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 19947,
+  "prim": "p_lane_correction",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 22494,
+  "prim": "p_lane_correction",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 255,
+  "prim": "p_hard_braking",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 13587,
+  "prim": "p_curve_entry_decel",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 1503,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 40206,
+  "prim": "p_close_following",
+  "label": "low",
+  "answer": "yes"
+ },
+ {
+  "gi": 26802,
+  "prim": "p_hard_braking",
+  "label": "low",
+  "answer": "no"
+ },
+ {
+  "gi": 28137,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 48120,
+  "prim": "p_sharp_steer_raw",
+  "label": "high",
+  "answer": "yes"
+ },
+ {
+  "gi": 27143,
+  "prim": "p_close_following",
+  "label": "high",
+  "answer": "yes"
+ }
+]

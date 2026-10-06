@@ -1,0 +1,74 @@
+{
+ "none (full input)": {
+  "dropped": [],
+  "auroc": 0.9157843362159905,
+  "eer": 0.15130008792865218,
+  "top1": 0.3385253108905916,
+  "n_drivers": 80
+ },
+ "motion (vEgo, aEgo)": {
+  "dropped": [
+   "vEgo",
+   "aEgo"
+  ],
+  "auroc": 0.9027624794601858,
+  "eer": 0.1636729054138927,
+  "top1": 0.2929280241175732,
+  "n_drivers": 80
+ },
+ "curvature/yaw": {
+  "dropped": [
+   "actual_curvature",
+   "yaw_rate",
+   "curv_measured"
+  ],
+  "auroc": 0.9077185426675178,
+  "eer": 0.158774023363899,
+  "top1": 0.30963446803165434,
+  "n_drivers": 80
+ },
+ "lead vehicle (radar)": {
+  "dropped": [
+   "leadOne_status",
+   "leadOne_dRel",
+   "leadOne_vRel"
+  ],
+  "auroc": 0.9178228350080149,
+  "eer": 0.15079763848762717,
+  "top1": 0.33777163672905414,
+  "n_drivers": 80
+ },
+ "lane lines": {
+  "dropped": [
+   "laneLeft_y",
+   "laneRight_y"
+  ],
+  "auroc": 0.9080200375776769,
+  "eer": 0.15927647280492396,
+  "top1": 0.2998367039316669,
+  "n_drivers": 80
+ },
+ "steering input": {
+  "dropped": [
+   "steeringAngleDeg",
+   "steeringRateDeg",
+   "steeringPressed"
+  ],
+  "auroc": 0.8557200746302462,
+  "eer": 0.21372943097600805,
+  "top1": 0.200100489888205,
+  "n_drivers": 80
+ },
+ "pedals": {
+  "dropped": [
+   "gas",
+   "gasPressed",
+   "brake",
+   "brakePressed"
+  ],
+  "auroc": 0.858780607717364,
+  "eer": 0.2039944730561487,
+  "top1": 0.22245949001381735,
+  "n_drivers": 80
+ }
+}

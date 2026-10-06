@@ -1,0 +1,145 @@
+{
+ "pairs": {
+  "Q80/Q20": [
+   80,
+   20
+  ],
+  "Q75/Q25": [
+   75,
+   25
+  ],
+  "Q85/Q15": [
+   85,
+   15
+  ]
+ },
+ "label_change_vs_Q80Q20": {
+  "Q75/Q25": {
+   "close_following": 0.2,
+   "large_headway": 0.2,
+   "hard_braking": 0.19993618379068284,
+   "high_jerk": 0.2,
+   "sharp_steer_raw": 0.2,
+   "sharp_steer_path": 0.20002552566925114,
+   "lane_correction": 0.1999530993512077,
+   "curve_entry_decel": 0.2
+  },
+  "Q85/Q15": {
+   "close_following": 0.25,
+   "large_headway": 0.25,
+   "hard_braking": 0.24998005902528517,
+   "high_jerk": 0.24992022973835354,
+   "sharp_steer_raw": 0.24413688576898532,
+   "sharp_steer_path": 0.24992022973835354,
+   "lane_correction": 0.25002442598925256,
+   "curve_entry_decel": 0.25
+  }
+ },
+ "stratified_pg": {
+  "Q80/Q20": {
+   "close_following": {
+    "n": 394,
+    "pg_pct": -0.8206055792982154
+   },
+   "large_headway": {
+    "n": 478,
+    "pg_pct": 0.2982005425320064
+   },
+   "hard_braking": {
+    "n": 1611,
+    "pg_pct": -0.13412296378184926
+   },
+   "high_jerk": {
+    "n": 2021,
+    "pg_pct": 0.012882453568690961
+   },
+   "sharp_steer_raw": {
+    "n": 1862,
+    "pg_pct": 0.07649361982813269
+   },
+   "sharp_steer_path": {
+    "n": 1830,
+    "pg_pct": 0.06972396949353252
+   },
+   "lane_correction": {
+    "n": 1630,
+    "pg_pct": 0.1908125932987342
+   },
+   "curve_entry_decel": {
+    "n": 497,
+    "pg_pct": -0.19135937563897776
+   }
+  },
+  "Q75/Q25": {
+   "close_following": {
+    "n": 494,
+    "pg_pct": -0.6998047428796188
+   },
+   "large_headway": {
+    "n": 597,
+    "pg_pct": 0.34709973786056036
+   },
+   "hard_braking": {
+    "n": 2038,
+    "pg_pct": -0.12672824719707124
+   },
+   "high_jerk": {
+    "n": 2473,
+    "pg_pct": 0.0024871569535169875
+   },
+   "sharp_steer_raw": {
+    "n": 2304,
+    "pg_pct": 0.06543235178436704
+   },
+   "sharp_steer_path": {
+    "n": 2245,
+    "pg_pct": 0.07960601933249829
+   },
+   "lane_correction": {
+    "n": 2040,
+    "pg_pct": 0.16234673382982207
+   },
+   "curve_entry_decel": {
+    "n": 638,
+    "pg_pct": -0.21031830167870486
+   }
+  },
+  "Q85/Q15": {
+   "close_following": {
+    "n": 307,
+    "pg_pct": -0.8825946704939234
+   },
+   "large_headway": {
+    "n": 349,
+    "pg_pct": 0.2569257282060074
+   },
+   "hard_braking": {
+    "n": 1230,
+    "pg_pct": -0.12210426486579738
+   },
+   "high_jerk": {
+    "n": 1523,
+    "pg_pct": 0.02097993340904106
+   },
+   "sharp_steer_raw": {
+    "n": 1419,
+    "pg_pct": 0.05267178746998209
+   },
+   "sharp_steer_path": {
+    "n": 1403,
+    "pg_pct": 0.07178712403431425
+   },
+   "lane_correction": {
+    "n": 1234,
+    "pg_pct": 0.2119243922409115
+   },
+   "curve_entry_decel": {
+    "n": 389,
+    "pg_pct": -0.14044169760573058
+   }
+  }
+ },
+ "overall_pg_pct_k5": -0.0660700625473129,
+ "signs_preserved": true,
+ "n_queries": 8953
+}

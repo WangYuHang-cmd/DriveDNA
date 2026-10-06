@@ -1,0 +1,46 @@
+{
+ "traffic_density": {
+  "matched": 0.7591350271196118,
+  "random": 0.73285,
+  "lift": 1.0358668583197268
+ },
+ "lead_vehicle": {
+  "matched": 0.6267485012846132,
+  "random": 0.5442,
+  "lift": 1.1516878009640081
+ },
+ "intersection": {
+  "matched": 0.693833856694262,
+  "random": 0.65845,
+  "lift": 1.0537381072127907
+ },
+ "traffic_signal": {
+  "matched": 0.7225949186411648,
+  "random": 0.69405,
+  "lift": 1.0411280435720263
+ },
+ "road_type": {
+  "matched": 0.46574364830145587,
+  "random": 0.31325,
+  "lift": 1.4868113273789494
+ },
+ "time_of_day": {
+  "matched": 0.5746502997430774,
+  "random": 0.53255,
+  "lift": 1.079054172834621
+ },
+ "weather": {
+  "matched": 0.7754781615757922,
+  "random": 0.76505,
+  "lift": 1.0136306928642471
+ },
+ "road_type_same_vs_diff": {
+  "same": 0.49957228400342174,
+  "diff": 0.43183766790511574
+ },
+ "traffic_density_same_vs_diff": {
+  "same": 0.7611919019104648,
+  "diff": 0.7570734495570163
+ },
+ "n_pairs_covered": 14012
+}

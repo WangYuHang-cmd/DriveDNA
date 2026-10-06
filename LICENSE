@@ -1,24 +1,31 @@
-MIT License
+DriveDNA Research License (code)
 
 Copyright (c) 2026 Yuhang Wang, Lingyao Li, Hao Zhou
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to use, copy, modify and
+redistribute the Software for non-commercial academic and research purposes only,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Research use only. Any commercial use of the Software, or of models, embeddings or
+   results derived from it, requires prior written permission from the authors.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. No re-identification or individual scoring. The Software, and any model, embedding
+   or result derived from DriveDNA data, must not be used to identify or re-identify
+   individual drivers, nor for insurance, employment, credit or law-enforcement scoring
+   of individuals.
 
-Note: this license covers the CODE in this repository. The DriveDNA DATA is
-released separately under a research-only license via Hugging Face.
+3. Data terms. The DriveDNA data are released separately on Hugging Face under the
+   DriveDNA research license and data-use agreement. This license grants no rights to
+   the data; access to the data is governed by those terms.
+
+4. Attribution. Redistributions of the Software, and publications that use it, must
+   retain this notice and cite the DriveDNA paper (arXiv:2607.23822).
+
+5. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+   FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE
+   FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+Note: the first public revision of this repository (commit 47eca88, 2026-07-27) was
+released under the MIT License; that revision remains available under its original terms.
