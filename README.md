@@ -93,7 +93,7 @@ The main driver-disjoint split is **212 train / 45 val / 45 test**, plus a **53-
 | Artifact | Identifier |
 |---|---|
 | this repository | tag `v1.1-kdd2027` |
-| HenryYHW/DriveDNA | data files frozen at revision `1f9c67170db726c977686ebe6ca86284f2aed444`; the current head `b6ac457b9bf12bd2920c408c9c188d9af69f39a5` changes only the card and LICENSE and removes 50 duplicate `.ts` segments and a stale code copy, so `hf download` of the head yields the same data |
+| HenryYHW/DriveDNA | data files frozen at revision `1f9c67170db726c977686ebe6ca86284f2aed444`; later commits (`b6ac457b` onward) change only the dataset card and LICENSE and remove 50 duplicate `.ts` segments and a stale code copy, so `hf download` of the current head yields the same data files |
 | HenryYHW/DriveDNA-Controlled | revision `1d24e058d74ca86965495e0458ac585ec82d3b37` |
 | HenryYHW/DriveDNA-models | revision `b0d7ab6713296ca90933eb078c4ab8c3ad821395` |
 | checksums | [`CHECKSUMS.sha256`](CHECKSUMS.sha256): sha256 of all 47 checkpoints and of every file in `results/` |
