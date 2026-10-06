@@ -95,7 +95,7 @@ The main driver-disjoint split is **212 train / 45 val / 45 test**, plus a **53-
 | this repository | tag `v1.1-kdd2027` |
 | HenryYHW/DriveDNA | revision `1f9c67170db726c977686ebe6ca86284f2aed444` |
 | HenryYHW/DriveDNA-Controlled | revision `1d24e058d74ca86965495e0458ac585ec82d3b37` |
-| HenryYHW/DriveDNA-models | see the model card (revision recorded there) |
+| HenryYHW/DriveDNA-models | revision `b0d7ab6713296ca90933eb078c4ab8c3ad821395` |
 | checksums | [`CHECKSUMS.sha256`](CHECKSUMS.sha256): sha256 of all 47 checkpoints and of every file in `results/` |
 
 Counts in the paper (465 drivers in the decoded corpus, 428 with benchmark windows, 355 in the frozen folds) refer to the corpus; the release index `index/drives.parquet` lists **4121 drives from 460 pseudonymised drivers**. The camera-ready version will carry one reconciled count table with the cohort definition behind each number.
