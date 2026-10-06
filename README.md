@@ -29,8 +29,8 @@ This repository holds the **evaluation harness, every baseline, the preprocessin
 
 | | |
 |---|---|
-| 🧑‍✈️ **Drivers** | **465** persistent pseudonymous identities, consistent across vehicles |
-| 🚗 **Vehicle models** | **115** across **26 brands** — 392 drivers share a model with another driver; 22 drivers appear on 2+ models |
+| 🧑‍✈️ **Drivers** | **460** released drivers with persistent pseudonymous identities (`driver_001` … `driver_460`), consistent across vehicles; the paper's corpus statistics cite 465 decoded drivers |
+| 🚗 **Vehicle models** | **115** nameplate-level models across **26 brands** (paper consolidation); driver-sharing counts per cohort are in [Counts and cohorts](#-counts-and-cohorts) |
 | 🛣️ **Drives** | **4,121** decoded drives (Mar 2023 – Jul 2026, multi-continent) |
 | ⏱️ **Human-controlled driving** | **975 h** total, **581 h** in motion, at 10 Hz with forward video |
 | 🪟 **Benchmark windows** | **62,674** tagged 60-s windows from 428 drivers (355 in frozen folds) |
@@ -93,12 +93,28 @@ The main driver-disjoint split is **212 train / 45 val / 45 test**, plus a **53-
 | Artifact | Identifier |
 |---|---|
 | this repository | tag `v1.1-kdd2027` |
-| HenryYHW/DriveDNA | revision `1f9c67170db726c977686ebe6ca86284f2aed444` |
+| HenryYHW/DriveDNA | data files frozen at revision `1f9c67170db726c977686ebe6ca86284f2aed444`; dataset card updated in `b6ac457b9bf12bd2920c408c9c188d9af69f39a5` |
 | HenryYHW/DriveDNA-Controlled | revision `1d24e058d74ca86965495e0458ac585ec82d3b37` |
 | HenryYHW/DriveDNA-models | revision `b0d7ab6713296ca90933eb078c4ab8c3ad821395` |
 | checksums | [`CHECKSUMS.sha256`](CHECKSUMS.sha256): sha256 of all 47 checkpoints and of every file in `results/` |
 
-Counts in the paper (465 drivers in the decoded corpus, 428 with benchmark windows, 355 in the frozen folds) refer to the corpus; the release index `index/drives.parquet` lists **4121 drives from 460 pseudonymised drivers**. The camera-ready version will carry one reconciled count table with the cohort definition behind each number.
+## 🔢 Counts and cohorts
+
+Different numbers on the paper and the public pages referred to different cohorts. With the released nameplate-level consolidation (`code/preprocessing/model_merge.py`, function `canon`) they are:
+
+| Cohort | Drivers | Share a vehicle model with ≥1 other driver | On two or more models |
+|---|---:|---:|---:|
+| Benchmark window cohort (`data/windows.parquet`, 62,674 windows) | 428 | 392 | 20 (7 admit model-matched negatives, Appendix G) |
+| Full release index (`index/drives.parquet`, 4,121 drives) | 460 | 426 | 22 |
+
+The paper's count of 420 drivers sharing a model was computed on the 465-driver decoded corpus before the release index was frozen; the camera-ready version will use the release-index figures with these definitions. Both rows are reproducible from the released files:
+
+```python
+import pandas as pd, sys; sys.path.insert(0, "code/preprocessing"); from model_merge import canon
+idx = pd.read_parquet("hf/DriveDNA/index/drives.parquet"); idx["model"] = idx.model_canon.map(canon)
+models = idx.groupby("driver").model.agg(set); per_model = idx.groupby("model").driver.nunique()
+print(sum(any(per_model[m] >= 2 for m in ms) for ms in models), (models.apply(len) >= 2).sum())   # 426 22
+```
 
 ## 🗂️ This Repository
 
