@@ -9,7 +9,7 @@
 [![Benchmark](https://img.shields.io/badge/tasks-3%20core%20%2B%202%20optional-45a49b)](#-benchmark-tasks--splits)
 [![Baselines](https://img.shields.io/badge/baselines-30%20configurations-7189b9)](#-key-results)
 
-<img src="https://huggingface.co/datasets/HenryYHW/DriveDNA/resolve/main/assets/teaser.png" alt="DriveDNA teaser" width="92%"/>
+<img src="https://raw.githubusercontent.com/WangYuHang-cmd/DriveDNA/main/assets/drivedna_teaser.png" alt="DriveDNA teaser" width="92%"/>
 
 *Recognizing a driver is not the same as capturing driving style — DriveDNA makes vehicle, route, and driving-condition shortcuts measurable.*
 
